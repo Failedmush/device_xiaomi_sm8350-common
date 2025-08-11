@@ -27,6 +27,9 @@ $(call inherit-product, hardware/qcom-caf/common/common.mk)
 # API
 PRODUCT_SHIPPING_API_LEVEL := 30
 
+# Dolby
+$(call inherit-product, hardware/dolby/dolby.mk)
+
 # Audio
 PRODUCT_PACKAGES += \
     libqcompostprocbundle \
