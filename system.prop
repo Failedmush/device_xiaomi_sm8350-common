@@ -43,3 +43,6 @@ persist.vendor.sensors.enable.mag_filter=true
 
 # WFD
 persist.debug.wfd.enable=1
+
+# Lunaris Flags
+ro.paranoid.maintainer=Failedmush
