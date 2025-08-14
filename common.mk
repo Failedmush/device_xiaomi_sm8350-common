@@ -30,6 +30,10 @@ PRODUCT_SHIPPING_API_LEVEL := 30
 # Dolby
 $(call inherit-product, hardware/dolby/dolby.mk)
 
+# Media - Dolby vision
+PRODUCT_PACKAGES += \
+    libcodec2_hidl_shim.vendor \
+
 # Audio
 PRODUCT_PACKAGES += \
     libqcompostprocbundle \
