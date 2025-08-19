@@ -397,7 +397,6 @@ PRODUCT_PACKAGES += \
     libcrypto-v34 \
     libaudiosystem_shim
 
-
 # Thermal
 PRODUCT_PACKAGES += \
     android.hardware.thermal-service.qti
