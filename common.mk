@@ -1,4 +1,4 @@
-#
+m@#
 # Copyright (C) 2020 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
@@ -249,8 +249,6 @@ PRODUCT_ENABLE_UFFD_GC := false
 # Lineage Health
 PRODUCT_PACKAGES += \
     vendor.lineage.health-service.default
-
-$(call soong_config_set,lineage_health,charging_control_supports_bypass,false)
 
 # Media
 PRODUCT_COPY_FILES += \
