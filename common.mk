@@ -395,7 +395,6 @@ PRODUCT_PACKAGES += \
 
 # Shims
 PRODUCT_PACKAGES += \
-    libcrypto-v34 \
     libaudiosystem_shim
 
 # Touchscreen
