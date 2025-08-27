@@ -1,0 +1,20 @@
+cc_library_shared {
+    name: "libaudiosystem_shim",
+    srcs: ["libaudiosystem/AudioSystem_shim.cpp"],
+    system_ext_specific: true,
+    shared_libs: [
+        "libaudioclient",
+        "libmedia_helper",
+        "libbinder",
+    ],
+    header_libs: [
+        "libaudio_system_headers",
+        "libaudiopolicymanager_interface_headers",
+        "libmedia_headers",
+    ],
+    export_include_dirs: ["."],
+    cflags: [
+        "-Wall",
+        "-Werror",
+    ],
+}
