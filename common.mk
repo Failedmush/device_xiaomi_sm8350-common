@@ -469,8 +469,3 @@ PRODUCT_COPY_FILES += \
 # WiFi firmware symlinks
 PRODUCT_PACKAGES += \
     firmware_WCNSS_qcom_cfg.ini_symlink
-
-# Platform
-MSMSTEPPE := sm8350
-TARGET_BOARD_PLATFORM := $(MSMSTEPPE)
-
