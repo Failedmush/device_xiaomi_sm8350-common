@@ -405,23 +405,6 @@ vendor/lib/libqcodec2_utils.so
 vendor/lib/libqcodec2_v4l2codec.so
 vendor/lib64/libmmosal.so;MODULE_SUFFIX=_vendor
 
-<<<<<<< HEAD
-# Media (Dolby Vision)
-vendor/bin/hw/dolbycodec2
-vendor/etc/dolby_vision.cfg
-vendor/etc/init/vendor.dolbyvision.media.c2@1.0-service.rc
-vendor/etc/vintf/manifest/c2_manifest_vendor.xml
-vendor/lib64/c2.dolby.avc.dec.so
-vendor/lib64/c2.dolby.avc.sec.dec.so
-vendor/lib64/c2.dolby.client.so
-vendor/lib64/c2.dolby.egl.so
-vendor/lib64/c2.dolby.hevc.dec.so
-vendor/lib64/c2.dolby.hevc.enc.so
-vendor/lib64/c2.dolby.hevc.sec.dec.so
-vendor/lib64/c2.dolby.store.so
-vendor/lib64/libdolbyottcameracontrol.so
-vendor/lib64/libdolbyvision.so
-=======
 # Media configs
 vendor/etc/media_codecs.xml
 vendor/etc/media_codecs_google_audio.xml
@@ -474,7 +457,6 @@ vendor/etc/media_codecs_yupik_v1.xml
 vendor/etc/media_profiles_yupik_iot.xml
 vendor/etc/media_profiles_yupik_v0.xml
 vendor/etc/media_profiles_yupik_v1.xml
->>>>>>> b46af1e (sm8350-common: Move media configs to proprietary files)
 
 # Mlipay
 vendor/bin/mlipayd@1.1
