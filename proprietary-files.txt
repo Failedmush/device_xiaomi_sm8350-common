@@ -435,14 +435,6 @@ vendor/lib64/vendor.qti.hardware.vpp@1.2.so
 vendor/lib64/vendor.qti.hardware.vpp@1.3.so
 vendor/lib64/vendor.qti.hardware.vpp@2.0.so
 
-# Media (Dolby)
-lib/libdolbyottcontrol.so
-lib/vendor.dolby.hardware.dms@2.0.so
-lib64/libdolbyottcontrol.so
-lib64/vendor.dolby.hardware.dms@2.0.so
-vendor/etc/dolby_vision.cfg
-vendor/lib/libdolbyottcameracontrol.so
-
 # Media (OZO Audio)
 vendor/bin/hw/vendor.ozoaudio.media.c2@1.0-service
 vendor/etc/init/vendor.ozoaudio.media.c2@1.0-service.rc
