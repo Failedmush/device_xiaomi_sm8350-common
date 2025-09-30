@@ -127,6 +127,9 @@ TARGET_COPY_OUT_PRODUCT := product
 # Platform
 TARGET_BOARD_PLATFORM := lahaina
 
+# Power
+TARGET_POWERHAL_MODE_EXT := $(COMMON_PATH)/power/power-mode.cpp
+
 # Properties
 TARGET_ODM_PROP += $(COMMON_PATH)/odm.prop
 TARGET_SYSTEM_PROP += $(COMMON_PATH)/system.prop
